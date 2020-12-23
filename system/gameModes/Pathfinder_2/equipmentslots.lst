@@ -1,0 +1,35 @@
+#
+# Last Editor: $Author$
+# Last Edited: $Date$
+#
+# Lists the DEFAULT number of slots for each type
+#
+NUMSLOTS:DEFAULT	HEAD:1	HANDS:2	TORSO:1	LEGS:2	SHIELD:1
+#
+# Name of Slot	Type of items can contain	Where to get # from
+#								and number in each slot
+#
+###Block: New Version
+EQSLOT:armbands	CONTAINS:armbands=1	NUMBER:TORSO
+EQSLOT:armor	CONTAINS:armor=1		NUMBER:TORSO
+EQSLOT:backpack	CONTAINS:backpack=1	NUMBER:TORSO
+EQSLOT:belt		CONTAINS:belt=1		NUMBER:TORSO
+EQSLOT:bracers	CONTAINS:bracers=1	NUMBER:TORSO
+EQSLOT:circlet	CONTAINS:circlet=1	NUMBER:TORSO
+EQSLOT:cloak	CONTAINS:cloak=1		NUMBER:TORSO
+EQSLOT:collar	CONTAINS:collar=1		NUMBER:TORSO
+EQSLOT:eyepiece	CONTAINS:eyepiece=1	NUMBER:TORSO
+EQSLOT:garment	CONTAINS:garment=1	NUMBER:TORSO
+EQSLOT:gloves	CONTAINS:gloves=1		NUMBER:TORSO
+EQSLOT:headwear	CONTAINS:headwear=1	NUMBER:TORSO
+EQSLOT:mask		CONTAINS:mask=1		NUMBER:TORSO
+EQSLOT:shield	CONTAINS:shield=1		NUMBER:TORSO
+EQSLOT:shoes	CONTAINS:shoes=1		NUMBER:TORSO
+
+EQSLOT:Weapon	CONTAINS:Weapon=1		NUMBER:HANDS
+#
+# If you wanted to increase the number of RINGs a set of Fingers could hold
+# You'd change the EQSLOT:Fingers to CONTAINS:RING=2
+#
+
+
