@@ -131,9 +131,3 @@ _					KEY:Lore - Fill In the Blank 2	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Fill 
 # Lore - Lore of a specific plane other than the Material Plane, or the plane in which the game is set if not the Material Plane (
 # *
 # * Lore of a type of food or drink (Alcohol Lore, Baking Lore, Butchering Lore, Cooking Lore, Tea Lore, etc.)
-
-# Ancestry Lore
-Lore - Dwarven Lore		KEY:Lore - Dwarven Lore			KEYSTAT:INT		USEUNTRAINED:NO		TYPE:Lore.Ancestry Lore
-Lore - Elven Lore			KEY:Lore - Elven Lore				KEYSTAT:INT		USEUNTRAINED:NO		TYPE:Lore.Ancestry Lore
-Lore - Goblin Lore		KEY:Lore - Goblin Lore			KEYSTAT:INT		USEUNTRAINED:NO		TYPE:Lore.Ancestry Lore
-Lore - Halfling Lore	KEY:Lore - Halfling Lore		KEYSTAT:INT		USEUNTRAINED:NO		TYPE:Lore.Ancestry Lore
