@@ -586,6 +586,8 @@ CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_FillIntheBlankLore1|0
 CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_FillIntheBlankLore2|0																															BONUS:SKILLRANK|Lore - Fill In the Blank 2|if(Modifier_FillIntheBlankLore2>=1,TL+(Modifier_FillIntheBlankLore2*2),UntrainedSkillBonus)|TYPE=Proficiency	BONUS:VAR|Modifier_FillIntheBlankLore2|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Fill In the Blank Lore 2"))|TYPE=Base
 CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_EntertainmentLore|0																																BONUS:SKILLRANK|Lore - Entertainment Lore|if(Modifier_EntertainmentLore>=1,TL+(Modifier_EntertainmentLore*2),UntrainedSkillBonus)|TYPE=Proficiency		BONUS:VAR|Modifier_EntertainmentLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Entertainment Lore"))|TYPE=Base
 CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_NobilityLore|0																																BONUS:SKILLRANK|Lore - Nobility Lore|if(Modifier_NobilityLore>=1,TL+(Modifier_NobilityLore*2),UntrainedSkillBonus)|TYPE=Proficiency					BONUS:VAR|Modifier_NobilityLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Nobility Lore"))|TYPE=Base
+#Racial Lore
+CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_DwarvenLore|0																																BONUS:SKILLRANK|Lore - Dwarven Lore|if(Modifier_DwarvenLore>=1,TL+(Modifier_DwarvenLore*2),UntrainedSkillBonus)|TYPE=Proficiency					BONUS:VAR|Modifier_DwarvenLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Dwarven Lore"))|TYPE=Base
 
 
 
@@ -721,7 +723,8 @@ Inner Plane Lore			CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 Outer Plane Lore			CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 Fill In the Blank Lore 1	CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 Fill In the Blank Lore 2	CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
-
+#Racial Lore
+Dwarven Lore					CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 
 ###Block: All Proficiencies
 
