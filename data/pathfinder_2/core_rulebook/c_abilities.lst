@@ -587,7 +587,10 @@ CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_FillIntheBlankLore2|0
 CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_EntertainmentLore|0																																BONUS:SKILLRANK|Lore - Entertainment Lore|if(Modifier_EntertainmentLore>=1,TL+(Modifier_EntertainmentLore*2),UntrainedSkillBonus)|TYPE=Proficiency		BONUS:VAR|Modifier_EntertainmentLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Entertainment Lore"))|TYPE=Base
 CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_NobilityLore|0																																BONUS:SKILLRANK|Lore - Nobility Lore|if(Modifier_NobilityLore>=1,TL+(Modifier_NobilityLore*2),UntrainedSkillBonus)|TYPE=Proficiency					BONUS:VAR|Modifier_NobilityLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Nobility Lore"))|TYPE=Base
 #Racial Lore
-CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_DwarvenLore|0																																BONUS:SKILLRANK|Lore - Dwarven Lore|if(Modifier_DwarvenLore>=1,TL+(Modifier_DwarvenLore*2),UntrainedSkillBonus)|TYPE=Proficiency					BONUS:VAR|Modifier_DwarvenLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Dwarven Lore"))|TYPE=Base
+CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_DwarvenLore|0																																BONUS:SKILLRANK|Lore - Dwarven Lore|if(Modifier_DwarvenLore>=1,TL+(Modifier_DwarvenLore*2),UntrainedSkillBonus)|TYPE=Proficiency			BONUS:VAR|Modifier_DwarvenLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Dwarven Lore"))|TYPE=Base
+CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_ElvenLore|0																																	BONUS:SKILLRANK|Lore - Elven Lore|if(Modifier_ElvenLore>=1,TL+(Modifier_ElvenLore*2),UntrainedSkillBonus)|TYPE=Proficiency						BONUS:VAR|Modifier_ElvenLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Elven Lore"))|TYPE=Base
+CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_GoblinLore|0																																BONUS:SKILLRANK|Lore - Goblin Lore|if(Modifier_GoblinLore>=1,TL+(Modifier_GoblinLore*2),UntrainedSkillBonus)|TYPE=Proficiency					BONUS:VAR|Modifier_GoblinLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Goblin Lore"))|TYPE=Base
+CATEGORY=Internal|Skill Tracker.MOD								DEFINE:Modifier_HalflingLore|0																															BONUS:SKILLRANK|Lore - Halfling Lore|if(Modifier_HalflingLore>=1,TL+(Modifier_HalflingLore*2),UntrainedSkillBonus)|TYPE=Proficiency		BONUS:VAR|Modifier_HalflingLore|min(4,count("ABILITIES", "CATEGORY=Proficiency", "KEY=Halfling Lore"))|TYPE=Base
 
 
 
@@ -725,6 +728,9 @@ Fill In the Blank Lore 1	CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 Fill In the Blank Lore 2	CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 #Racial Lore
 Dwarven Lore					CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
+Elven Lore						CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
+Goblin Lore						CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
+Halfling Lore					CATEGORY:Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
 
 ###Block: All Proficiencies
 

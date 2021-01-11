@@ -125,7 +125,10 @@ Lore - Outer Plane Lore		KEY:Lore - Outer Plane Lore		KEYSTAT:INT	USEUNTRAINED:N
 _					KEY:Lore - Fill In the Blank 1	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Fill In Lore
 _					KEY:Lore - Fill In the Blank 2	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Fill In Lore
 #Racial Lore
-Lore - Dwarven Lore		KEY:Lore - Dwarven Lore		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Racial Lore
+Lore - Dwarven Lore			KEY:Lore - Dwarven Lore		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Racial Lore
+Lore - Elven Lore				KEY:Lore - Elven Lore			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Racial Lore
+Lore - Goblin Lore			KEY:Lore - Goblin Lore		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Racial Lore
+Lore - Halfling Lore		KEY:Lore - Halfling Lore	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Lore.Racial Lore
 
 
 # Lore - Lore about a specific creature or narrow category of creatures (Demon Lore, Owlbear Lore, Vampire Lore, etc.)

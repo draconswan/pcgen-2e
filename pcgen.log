@@ -1,3 +1,4 @@
-22:38:21.969 INFO main Main:138 Starting PCGen v6.08.00 RC8
-22:38:22.38 INFO main LanguageBundle:134 Initialising language bundle with locale en_US.
-22:38:28.857 INFO Thread-2 SourceFileLoader:534 Loading game Pathfinder_2 and sources [Core Rulebook].
+19:10:52.821 INFO main Main:138 Starting PCGen v6.08.00 RC8
+19:10:52.888 INFO main LanguageBundle:134 Initialising language bundle with locale en_US.
+19:10:59.373 INFO Thread-2 SourceFileLoader:534 Loading game Pathfinder_2 and sources [Core Rulebook].
+19:11:00.692 SEVERE Thread-2 AbstractReferenceManufacturer:294 Error: No Ability Category Internal objects of TYPE=Alchemy were loaded but were referred to in the data
