@@ -656,40 +656,42 @@ Legendary in Halfling Lore				SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained S
 #Trained in Shields				CATEGORY:Proficiency	ABILITY:Proficiency|AUTOMATIC|Shields
 
 
-Trained in Perception							CATEGORY:Proficiency	TYPE:Perception																					PREVAREQ:Modifier_Perception,0									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|1|TYPE=Base
-Expert in Perception							CATEGORY:Proficiency	TYPE:Perception																					PREVAREQ:Modifier_Perception,1									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|2|TYPE=Base
-Mastery in Perception							CATEGORY:Proficiency	TYPE:Perception																PREPCLEVEL:MIN=7			PREVAREQ:Modifier_Perception,2									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|3|TYPE=Base
-Legendary in Perception							CATEGORY:Proficiency	TYPE:Perception																PREPCLEVEL:MIN=15			PREVAREQ:Modifier_Perception,3									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|4|TYPE=Base
+Trained in Perception							CATEGORY:Proficiency	TYPE:Perception																					PREVAREQ:Modifier_Perception,0									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Perception							CATEGORY:Proficiency	TYPE:Perception																					PREVAREQ:Modifier_Perception,1									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Perception							CATEGORY:Proficiency	TYPE:Perception																PREPCLEVEL:MIN=7			PREVAREQ:Modifier_Perception,2									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Perception							CATEGORY:Proficiency	TYPE:Perception																PREPCLEVEL:MIN=15			PREVAREQ:Modifier_Perception,3									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
 # Weapons
 
-Trained in Light Armor							CATEGORY:Proficiency																								PREVAREQ:Prof_Rank_LightArmor,0									ABILITY:Proficiency|AUTOMATIC|Light Armor																		BONUS:VAR|Prof_Rank_LightArmor|1|TYPE=Base
-Expert in Light Armor							CATEGORY:Proficiency																								PREVAREQ:Prof_Rank_LightArmor,1									ABILITY:Proficiency|AUTOMATIC|Light Armor																		BONUS:VAR|Prof_Rank_LightArmor|2|TYPE=Base
-Mastery in Light Armor							CATEGORY:Proficiency																			PREPCLEVEL:MIN=7			PREVAREQ:Prof_Rank_LightArmor,2									ABILITY:Proficiency|AUTOMATIC|Light Armor																		BONUS:VAR|Prof_Rank_LightArmor|3|TYPE=Base
-Legendary in Light Armor						CATEGORY:Proficiency																			PREPCLEVEL:MIN=15			PREVAREQ:Prof_Rank_LightArmor,3									ABILITY:Proficiency|AUTOMATIC|Light Armor																		BONUS:VAR|Prof_Rank_LightArmor|4|TYPE=Base
+Trained in Light Armor							CATEGORY:Proficiency		PREVAREQ:Prof_Rank_LightArmor,0									ABILITY:Proficiency|AUTOMATIC|Light Armor			BONUS:VAR|Prof_Rank_LightArmor|1|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Light Armor							CATEGORY:Proficiency		PREVAREQ:Prof_Rank_LightArmor,1									ABILITY:Proficiency|AUTOMATIC|Light Armor			BONUS:VAR|Prof_Rank_LightArmor|2|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Light Armor							CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_LightArmor,2			ABILITY:Proficiency|AUTOMATIC|Light Armor			BONUS:VAR|Prof_Rank_LightArmor|3|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Light Armor						CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_LightArmor,3			ABILITY:Proficiency|AUTOMATIC|Light Armor			BONUS:VAR|Prof_Rank_LightArmor|4|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
+Trained in Medium Armor							CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MediumArmor,0								ABILITY:Proficiency|AUTOMATIC|Medium Armor			BONUS:VAR|Prof_Rank_MediumArmor|1|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Medium Armor							CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MediumArmor,1								ABILITY:Proficiency|AUTOMATIC|Medium Armor			BONUS:VAR|Prof_Rank_MediumArmor|2|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Medium Armor							CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_MediumArmor,2		ABILITY:Proficiency|AUTOMATIC|Medium Armor			BONUS:VAR|Prof_Rank_MediumArmor|3|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Medium Armor						CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_MediumArmor,3		ABILITY:Proficiency|AUTOMATIC|Medium Armor			BONUS:VAR|Prof_Rank_MediumArmor|4|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
-Trained in Medium Armor							CATEGORY:Proficiency																								PREVAREQ:Prof_Rank_MediumArmor,0									ABILITY:Proficiency|AUTOMATIC|Medium Armor																	BONUS:VAR|Prof_Rank_MediumArmor|1|TYPE=Base
-Expert in Medium Armor							CATEGORY:Proficiency																								PREVAREQ:Prof_Rank_MediumArmor,1									ABILITY:Proficiency|AUTOMATIC|Medium Armor																	BONUS:VAR|Prof_Rank_MediumArmor|2|TYPE=Base
-Mastery in Medium Armor							CATEGORY:Proficiency																			PREPCLEVEL:MIN=7			PREVAREQ:Prof_Rank_MediumArmor,2									ABILITY:Proficiency|AUTOMATIC|Medium Armor																	BONUS:VAR|Prof_Rank_MediumArmor|3|TYPE=Base
-Legendary in Medium Armor						CATEGORY:Proficiency																			PREPCLEVEL:MIN=15			PREVAREQ:Prof_Rank_MediumArmor,3									ABILITY:Proficiency|AUTOMATIC|Medium Armor																	BONUS:VAR|Prof_Rank_MediumArmor|4|TYPE=Base
+Trained in Heavy Armor							CATEGORY:Proficiency		PREVAREQ:Prof_Rank_HeavyArmor,0									ABILITY:Proficiency|AUTOMATIC|Heavy Armor			BONUS:VAR|Prof_Rank_HeavyArmor|1|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Heavy Armor							CATEGORY:Proficiency		PREVAREQ:Prof_Rank_HeavyArmor,1									ABILITY:Proficiency|AUTOMATIC|Heavy Armor			BONUS:VAR|Prof_Rank_HeavyArmor|2|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Heavy Armor							CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_HeavyArmor,2			ABILITY:Proficiency|AUTOMATIC|Heavy Armor			BONUS:VAR|Prof_Rank_HeavyArmor|3|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Heavy Armor						CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_HeavyArmor,3			ABILITY:Proficiency|AUTOMATIC|Heavy Armor			BONUS:VAR|Prof_Rank_HeavyArmor|4|TYPE=Base			MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
-Trained in Heavy Armor							CATEGORY:Proficiency																								PREVAREQ:Prof_Rank_HeavyArmor,0									ABILITY:Proficiency|AUTOMATIC|Heavy Armor																		BONUS:VAR|Prof_Rank_HeavyArmor|1|TYPE=Base
-Expert in Heavy Armor							CATEGORY:Proficiency																								PREVAREQ:Prof_Rank_HeavyArmor,1									ABILITY:Proficiency|AUTOMATIC|Heavy Armor																		BONUS:VAR|Prof_Rank_HeavyArmor|2|TYPE=Base
-Mastery in Heavy Armor							CATEGORY:Proficiency																			PREPCLEVEL:MIN=7			PREVAREQ:Prof_Rank_HeavyArmor,2									ABILITY:Proficiency|AUTOMATIC|Heavy Armor																		BONUS:VAR|Prof_Rank_HeavyArmor|3|TYPE=Base
-Legendary in Heavy Armor						CATEGORY:Proficiency																			PREPCLEVEL:MIN=15			PREVAREQ:Prof_Rank_HeavyArmor,3									ABILITY:Proficiency|AUTOMATIC|Heavy Armor																		BONUS:VAR|Prof_Rank_HeavyArmor|4|TYPE=Base
+Trained in Unarmored Defense					CATEGORY:Proficiency		PREVAREQ:Prof_Rank_UnarmoredDefense,0							ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|1|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Unarmored Defense						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_UnarmoredDefense,1							ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|2|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Unarmored Defense						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_UnarmoredDefense,2	ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|3|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Unarmored Defense					CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_UnarmoredDefense,3	ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|4|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
+Trained in Simple Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_SimpleWeapons,0								ABILITY:Proficiency|AUTOMATIC|Simple Weapons		BONUS:VAR|Prof_Rank_SimpleWeapons|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Simple Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_SimpleWeapons,1								ABILITY:Proficiency|AUTOMATIC|Simple Weapons		BONUS:VAR|Prof_Rank_SimpleWeapons|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Simple Weapons						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_SimpleWeapons,2		ABILITY:Proficiency|AUTOMATIC|Simple Weapons		BONUS:VAR|Prof_Rank_SimpleWeapons|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Simple Weapons						CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_SimpleWeapons,3		ABILITY:Proficiency|AUTOMATIC|Simple Weapons		BONUS:VAR|Prof_Rank_SimpleWeapons|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
-Trained in Simple Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Simple Weapons																	BONUS:VAR|Prof_Rank_SimpleWeapons|1|TYPE=Base
-Expert in Simple Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Simple Weapons																	BONUS:VAR|Prof_Rank_SimpleWeapons|2|TYPE=Base
-Mastery in Simple Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|simple weapons																	BONUS:VAR|Prof_Rank_SimpleWeapons|3|TYPE=Base
-Legendary in Simple Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|simple weapons																	BONUS:VAR|Prof_Rank_SimpleWeapons|4|TYPE=Base
-
-
-
-
-Trained in Martial Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Martial Weapons																	BONUS:VAR|Prof_Rank_MartialWeapons|1|TYPE=Base
-
+Trained in Martial Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MartialWeapons,0								ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Martial Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MartialWeapons,0								ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Martial Weapons						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_MartialWeapons,2		ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Martial Weapons					CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_MartialWeapons,2		ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
 Trained in Alchemical Bombs						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Alchemical Bombs																	BONUS:VAR|Prof_Rank_AlchemicalBombs|1|TYPE=Base
 Trained in Arcane Spell Attack					CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Arcane Spell Attack																BONUS:VAR|Prof_Rank_ArcaneSpellAttacks|1|TYPE=Base
@@ -710,15 +712,7 @@ Trained in Shortbow							CATEGORY:Proficiency																																		
 Trained in Shortsword							CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Shortsword																		BONUS:VAR|Prof_Rank_Shortsword|1|TYPE=Base
 Trained in Staff								CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Staff																			BONUS:VAR|Prof_Rank_Staff|1|TYPE=Base
 Trained in Unarmed Attacks						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks																	BONUS:VAR|Prof_Rank_UnarmedAttacks|1|TYPE=Base
-Trained in Unarmored Defense						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Unarmored Defense																	BONUS:VAR|Prof_Rank_UnarmoredDefense|1|TYPE=Base
 
-
-
-
-
-Expert in Unarmored Defense						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Unarmored Defense																	BONUS:VAR|Prof_Rank_UnarmoredDefense|2|TYPE=Base
-Expert in Martial Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Martial Weapons																	BONUS:VAR|Prof_Rank_MartialWeapons|2|TYPE=Base
-Mastery in martial weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|martial weapons																	BONUS:VAR|Prof_Rank_MartialWeapons|3|TYPE=Base
 
 Expert in Unarmed Attacks						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks																	BONUS:VAR|Prof_Rank_UnarmedAttacks|2|TYPE=Base
 Expert in Advanced weapons						CATEGORY:Proficiency																															DEFINE:Prof_Rank_AdvancedWeapons|0		ABILITY:Proficiency|AUTOMATIC|Advanced weapons																	BONUS:VAR|Prof_Rank_AdvancedWeapons|2|TYPE=Base

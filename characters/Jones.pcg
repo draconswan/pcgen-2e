@@ -50,29 +50,34 @@ PORTRAIT:
 
 # Character Attributes
 STAT:STR|SCORE:0
-STAT:DEX|SCORE:0
-STAT:CON|SCORE:0
+STAT:DEX|SCORE:17
+STAT:CON|SCORE:8
 STAT:INT|SCORE:0
 STAT:WIS|SCORE:0
 STAT:CHA|SCORE:0
-ALIGN:None
-RACE:Halfling
+ALIGN:CG
+RACE:Elf
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASS:Rogue|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:0|PRESTAT:CON=8|PRESTAT:DEX=17|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:0
+EXPERIENCE:4000
 EXPERIENCETABLE:Default
 
 # Character Templates
-TEMPLATESAPPLIED:[NAME:Bonus Languages ~ Halfling]
-TEMPLATESAPPLIED:[NAME:Automatic Languages ~ Halfling]
-TEMPLATESAPPLIED:[NAME:Size ~ S]
-TEMPLATESAPPLIED:[NAME:1st Level Intelligence Score|APPLIEDTO:INT 16]
-TEMPLATESAPPLIED:[NAME:INT 16|CHOSENTEMPLATE:[NAME:Language +2]]
-TEMPLATESAPPLIED:[NAME:Language +2]
+TEMPLATESAPPLIED:[NAME:Bonus Languages ~ Elf]
+TEMPLATESAPPLIED:[NAME:Automatic Languages ~ Elf]
+TEMPLATESAPPLIED:[NAME:Size ~ M]
+TEMPLATESAPPLIED:[NAME:1st Level Intelligence Score|APPLIEDTO:INT 14]
+TEMPLATESAPPLIED:[NAME:INT 14|CHOSENTEMPLATE:[NAME:Language +1]]
+TEMPLATESAPPLIED:[NAME:Language +1]
+TEMPLATESAPPLIED:[NAME:Alchemy]
 
 # Character Region
 REGION:None
@@ -86,8 +91,8 @@ SKILL:Deception|OUTPUTORDER:5|
 SKILL:Diplomacy|OUTPUTORDER:6|
 SKILL:Intimidation|OUTPUTORDER:7|
 SKILL:Lore|OUTPUTORDER:8|
-SKILL:Lore - Academia Lore|OUTPUTORDER:9|
-SKILL:Lore - Halfling Lore|OUTPUTORDER:10|
+SKILL:Lore - Elven Lore|OUTPUTORDER:9|
+SKILL:Lore - Legal Lore|OUTPUTORDER:10|
 SKILL:Medicine|OUTPUTORDER:11|
 SKILL:Nature|OUTPUTORDER:12|
 SKILL:Occultism|OUTPUTORDER:13|
@@ -99,53 +104,76 @@ SKILL:Survival|OUTPUTORDER:18|
 SKILL:Thievery|OUTPUTORDER:19|
 
 # Character Languages
-LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Halfling
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Sylvan
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:Ancestry Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Ancestry Ability Boost ~ Int +2|TYPE:Ancestry Ability Boost.Ancestry Ability Boost Int
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Alchemist's fire - lesser Bomb|TYPE:Alchemy
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Elixir of life - minor Elixir|TYPE:Alchemy
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Frost vial - lesser Bomb|TYPE:Alchemy
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Silvertongue mutagen - lesser Elixir|TYPE:Alchemy
+USERPOOL:Alchemy|POOLPOINTS:0.0
+ABILITY:Ancestry Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Ancestry Ability Boost ~ Cha +2|TYPE:Ancestry Ability Boost.Ancestry Ability Boost Cha
 USERPOOL:Ancestry Ability Boost|POOLPOINTS:0.0
-ABILITY:Ancestry Bonus Language|TYPE:NORMAL|CATEGORY:Language|KEY:Ancestry Language Support ~ Dwarven|TYPE:Ancestry Bonus Language.Spoken.Common|DESC:Dwarves
-ABILITY:Ancestry Bonus Language|TYPE:NORMAL|CATEGORY:Language|KEY:Ancestry Language Support ~ Elven|TYPE:Ancestry Bonus Language.Spoken.Common|DESC:Elves, half-elves
+ABILITY:Ancestry Bonus Language|TYPE:NORMAL|CATEGORY:Language|KEY:Ancestry Language Support ~ Sylvan|TYPE:Ancestry Bonus Language.Spoken.Common|DESC:Fey, centaurs, plant creatures
 USERPOOL:Ancestry Bonus Language|POOLPOINTS:0.0
-ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Halfling Ancestry Feat ~ Halfling Lore|TYPE:Halfling Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:You've dutifully learned how to keep your balance and how to stick to the shadows where it's safe, important skills passed down through generations of halfling tradition. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Halfling Lore.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Elf Ancestry Feat ~ Elven Lore|TYPE:Elf Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:You've studied in traditional elven arts, learning about arcane magic and the world around you. You gain the trained proficiency rank in Arcana and Nature. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Elven Lore.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Elf Ancestry Feat ~ Nimble Elf|TYPE:Elf Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:Your muscles are tightly honed. Your Speed increases by 5 feet.
 USERPOOL:Ancestry Feats|POOLPOINTS:0.0
 ABILITY:Background Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Dex +2|TYPE:Background Ability Boost.Background Ability Boost Dex
 USERPOOL:Background Ability Boost|POOLPOINTS:0.0
-ABILITY:Background Ability Boost Intelligence or Wisdom|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Int +2|TYPE:Background Ability Boost.Background Ability Boost Int
-USERPOOL:Background Ability Boost Intelligence or Wisdom|POOLPOINTS:0.0
-ABILITY:Backgrounds|TYPE:NORMAL|CATEGORY:Background|KEY:Scholar Background|TYPE:Display.Background|DESC:You have a knack for learning, and from a young age, you sequestered yourself from the outside world to learn all that you could. You've read about so many wondrous places and things in your books, and you've always dreamed about one day seeing the real things. Eventually, that curiosity led you to leave your studies and become an adventurer. Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost. Choose Arcana, Nature, Occultism, or Religion; you gain the Assurance skill feat in your chosen skill. You're trained in the Academia Lore skill.
+ABILITY:Background Ability Boost Strength or Wisdom|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Wis +2|TYPE:Background Ability Boost.Background Ability Boost Wis
+USERPOOL:Background Ability Boost Strength or Wisdom|POOLPOINTS:0.0
+ABILITY:Backgrounds|TYPE:NORMAL|CATEGORY:Background|KEY:Bounty Hunter Background|TYPE:Display.Background|DESC:Bringing in lawbreakers lined your pockets. Maybe you had an altruistic motive and sought to bring in criminals to make the streets safer, or maybe the coin was motivation enough. Your techniques for hunting down criminals transfer easily to the life of an adventurer. Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost. You're trained in the Survival skill and the Legal Lore skill. You gain the Experienced Tracker skill feat.
 USERPOOL:Backgrounds|POOLPOINTS:0.0
 ABILITY:Dexterity or Charisma Class Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Class Ability Boost ~ Dex +2|TYPE:Class Ability Boost.Class Ability Boost Dex
 USERPOOL:Dexterity or Charisma Class Ability Boost|POOLPOINTS:0.0
-ABILITY:Halfling Heritage|TYPE:NORMAL|CATEGORY:Heritage|KEY:Heritage ~ Twilight Halfling|TYPE:Halfling Heritage.Display|DESC:Your ancestors performed many secret acts under the concealing cover of dusk, whether for good or ill, and over time they developed the ability to see in twilight beyond even the usual keen sight of halflings. You gain low-light vision.
-USERPOOL:Halfling Heritage|POOLPOINTS:0.0
+ABILITY:Elf Heritage|TYPE:NORMAL|CATEGORY:Heritage|KEY:Heritage ~ Whisper Elf|TYPE:Elf Heritage.Display|DESC:Your ears are finely tuned, able to detect even the slightest whispers of sound. As long as you can hear normally, you can use the Seek action to sense undetected creatures in a 60-foot cone instead of a 30-foot cone. You also gain a +2 circumstance bonus to locate undetected creatures that you could hear within 30 feet with a Seek action.
+USERPOOL:Elf Heritage|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cat Fall|TYPE:General.Skill|DESC:Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter. If you're a master in Acrobatics, treat them as 50 feet shorter. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.
+USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Cha +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Cha
 ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Dex +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Dex
 ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Int +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Int
 ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Wis +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Wis
 USERPOOL:Level 01 Ability Boost|POOLPOINTS:0.0
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Con +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Con
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Dex +1|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Dex
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Int +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Int
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Str +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Str
+USERPOOL:Level 05 Ability Boost|POOLPOINTS:0.0
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:ALCHEMIST DEDICATION|TYPE:FEAT 2.ARCHETYPE DEDICATION.MULTICLASS|DESC:You put your alchemical interest into practice. You become trained in alchemical bombs and Crafting; if you were already trained in Crafting, you instead become trained in a skill of your choice. You become trained in alchemist class DC. You gain the alchemist�s infused reagents class feature, gaining a number of reagents each day equal to your level. You also gain the Alchemical Crafting feat and four additional formulas for 1st-level alchemical items, as well as the ability to create free items during your daily preparations. Your advanced alchemy level is 1 and doesn�t increase on its own. Special You cannot select another dedication feat until you have gained two other feats from the alchemist archetype.
 ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Trap Finder|TYPE:Rogue Class Feat.Class Feat.FEAT 1.ROGUE|DESC:You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren't Searching, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap. You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead, and your circumstance bonuses against traps increase to +2.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ You're Next|TYPE:Rogue Class Feat.Class Feat.FEAT 1.EMOTION.FEAR.MENTAL.ROGUE|DESC:Trigger You reduce an enemy to 0 hit points. &amp;nl;After downing a foe, you menacingly remind another foe that you're coming after them next. Attempt an Intimidation check with a +2 circumstance bonus to Demoralize a single creature that you can see and that can see you. If you have legendary proficiency in Intimidation, you can use this as a free action with the same trigger.
 USERPOOL:Rogue Class Feat|POOLPOINTS:0.0
 ABILITY:Rogue's Racket|TYPE:NORMAL|CATEGORY:Class Feature|KEY:Rogue Class Feature ~ Scoundrel|TYPE:Rogue Class Feature.Class Feature.Display.Rogue's Racket|DESC:You use fast-talking, flattery, and a silver tongue to avoid danger and escape tricky situations. You might be a grifter or con artist, traveling from place to place with a new story or scheme. Your racket is also ideal for certain reputable professions, like barrister, diplomat, or politician. When you successfully Feint (page 246), the target is flat-footed against melee attacks you attempt against it until the end of your next turn. On a critical success, the target is flat-footed against all melee attacks until the end of your next turn, not just yours. You're trained in Deception and Diplomacy. You can choose Charisma as your key ability score.
 USERPOOL:Rogue's Racket|POOLPOINTS:0.0
-ABILITY:Scholar Assurance Choice|TYPE:NORMAL|CATEGORY:FEAT|KEY:Assurance|APPLIEDTO:Occultism|TYPE:General.Skill|DESC:Even in the worst circumstances, you can perform basic tasks. Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).
-USERPOOL:Scholar Assurance Choice|POOLPOINTS:0.0
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Acrobatics|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Acrobatics.Trained in Acrobatics
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Arcana|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Arcana.Trained in Arcana
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Athletics|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Athletics.Trained in Athletics
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Intimidation|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Intimidation.Trained in Intimidation
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Medicine|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Medicine.Trained in Medicine
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Nature|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Nature.Trained in Nature
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Occultism|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Occultism.Trained in Occultism
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Performance|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Performance.Trained in Performance
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Religion|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Religion.Trained in Religion
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Society|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Society.Trained in Society
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Survival|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Survival.Trained in Survival
-ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Thievery|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Thievery.Trained in Thievery
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Arcane Sense|TYPE:General.Skill|DESC:Your study of magic allows you to instinctively sense its presence. You can cast 1st-level detect magic at will as an arcane innate spell. If you're a master in Arcana, the spell is heightened to 3rd level; if you're legendary, it is heightened to 4th level.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Experienced Smuggler|TYPE:General.Skill|DESC:You often smuggle things past the authorities. When the GM rolls your Stealth check to see if a passive observer notices a small item you have concealed, the GM uses the number rolled or 10-whichever is higher-as the result of your die roll, adding it to your Stealth modifier to determine your Stealth check result. If you're a master in Stealth, the GM uses the number rolled or 15, and if you're legendary in Stealth, you automatically succeed at hiding a small concealed item from passive observers. This provides no benefits when a creature attempts a Perception check while actively searching you for hidden items. Due to your smuggling skill, you're more likely to find more lucrative smuggling jobs when using Underworld Lore to Earn Income.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Hobnobber|TYPE:General.Skill|DESC:You are skilled at learning information through conversation. The Gather Information exploration activity takes you half as long as normal (typically reducing the time to 1 hour). If you're a master in Diplomacy and you Gather Information at the normal speed, when you attempt to do so and roll a critical failure, you get a failure instead. There is still no guarantee that a rumor you learn with Gather Information is accurate.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Streetwise|TYPE:General.Skill|DESC:You know about life on the streets and feel the pulse of your local settlement. You can use your Society modifier instead of your Diplomacy modifier to Gather Information. In any settlement you frequent regularly, you can use the Recall Knowledge action with Society to know the same sorts of information that you could discover with Diplomacy to Gather Information. The DC is usually significantly higher, but you know the information without spending time gathering it. If you fail to recall the information, you can still subsequently attempt to Gather Information normally.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Virtuosic Performer|TYPE:General.Skill|DESC:You have exceptional talent with one type of performance. You gain a +1 circumstance bonus when making a certain type of performance. If you are a master in Performance, this bonus increases to +2. Select one of the following specialties and apply the bonus when attempting Performance checks of that type. If it's unclear whether the specialty applies, the GM decides.
+USERPOOL:Skill Feat|POOLPOINTS:0.0
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Deception|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Deception.Expert in Deception
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Intimidation|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Intimidation.Expert in Intimidation
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Performance|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Performance.Expert in Performance
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Stealth|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Stealth.Expert in Stealth
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Thievery|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Thievery.Expert in Thievery
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Acrobatics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Acrobatics.Trained in Acrobatics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Athletics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Athletics.Trained in Athletics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Crafting|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Crafting.Trained in Crafting
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Intimidation|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Intimidation.Trained in Intimidation
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Medicine|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Medicine.Trained in Medicine
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Occultism|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Occultism.Trained in Occultism
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Performance|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Performance.Trained in Performance
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Religion|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Religion.Trained in Religion
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Society|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Society.Trained in Society
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Thievery|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Thievery.Trained in Thievery
 USERPOOL:Trained Skills|POOLPOINTS:0.0
+ABILITY:Virtuosic Performer|TYPE:NORMAL|CATEGORY:Selection|KEY:Oratory ~ Storytelling|TYPE:Virtuosic Performer
+USERPOOL:Virtuosic Performer|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Blowgun|WEAPON:Clan dagger|WEAPON:Club|WEAPON:Crossbow|WEAPON:Dagger|WEAPON:Dart|WEAPON:Hand crossbow|WEAPON:Heavy crossbow|WEAPON:Javelin|WEAPON:Katar]
@@ -164,6 +192,7 @@ CALCEQUIPSET:0.1
 # Character Deity/Domain
 
 # Character Spells Information
+SPELLBOOK:Arcane Sense|TYPE:4
 
 # Character Description/Bio/History
 CHARACTERBIO:

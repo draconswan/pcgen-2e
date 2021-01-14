@@ -113,8 +113,6 @@ ABILITYCATEGORY:Bonus Language							VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO			
 ABILITYCATEGORY:Additional Lore Feat Selection					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO							CATEGORY:Selection		TYPE:Additional Lore Feat Selection																						DISPLAYLOCATION:Character
 
 
-
-
 # Class Feature
 ABILITYCATEGORY:Alchemist Class Feature						VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO							CATEGORY:Class Feature		TYPE:Alchemist Class Feature																							DISPLAYLOCATION:Character
 ABILITYCATEGORY:Barbarian Class Feature						VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO							CATEGORY:Class Feature		TYPE:Barbarian Class Feature																							DISPLAYLOCATION:Character
