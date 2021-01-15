@@ -1,0 +1,252 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:PF2 - Core Rulebook
+VERSION:6.08.00 RC8
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:troubleshooting.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Pathfinder_2
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Tester
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:0
+STAT:DEX|SCORE:0
+STAT:CON|SCORE:0
+STAT:INT|SCORE:0
+STAT:WIS|SCORE:0
+STAT:CHA|SCORE:0
+ALIGN:None
+RACE:Human
+
+# Character Class(es)
+CLASS:Rogue|LEVEL:19|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=11|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=12|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=13|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=14|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=15|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=16|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=17|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=18|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=19|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:18000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Bonus Languages ~ Human]
+TEMPLATESAPPLIED:[NAME:Automatic Languages ~ Human]
+TEMPLATESAPPLIED:[NAME:Size ~ M]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Varisian]
+TEMPLATESAPPLIED:[NAME:1st Level Intelligence Score|APPLIEDTO:INT 12]
+TEMPLATESAPPLIED:[NAME:INT 12]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Arcana|OUTPUTORDER:2|
+SKILL:Athletics|OUTPUTORDER:3|
+SKILL:Crafting|OUTPUTORDER:4|
+SKILL:Deception|OUTPUTORDER:5|
+SKILL:Diplomacy|OUTPUTORDER:6|
+SKILL:Intimidation|OUTPUTORDER:7|
+SKILL:Lore|OUTPUTORDER:8|
+SKILL:Lore - Legal Lore|OUTPUTORDER:9|
+SKILL:Medicine|OUTPUTORDER:10|
+SKILL:Nature|OUTPUTORDER:11|
+SKILL:Occultism|OUTPUTORDER:12|
+SKILL:Performance|OUTPUTORDER:13|
+SKILL:Religion|OUTPUTORDER:14|
+SKILL:Society|OUTPUTORDER:15|
+SKILL:Stealth|OUTPUTORDER:16|
+SKILL:Survival|OUTPUTORDER:17|
+SKILL:Thievery|OUTPUTORDER:18|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ancestry Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Ancestry Ability Boost ~ Cha +2|TYPE:Ancestry Ability Boost.Ancestry Ability Boost Cha
+ABILITY:Ancestry Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Ancestry Ability Boost ~ Dex +2|TYPE:Ancestry Ability Boost.Ancestry Ability Boost Dex
+USERPOOL:Ancestry Ability Boost|POOLPOINTS:0.0
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Human Ancestry Feat ~ Natural Ambition|APPLIEDTO:CATEGORY=Class Feat&pipe;Rogue Feat ~ You're Next|TYPE:Human Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:You were raised to be ambitious and always reach for the stars, leading you to progress quickly in your chosen field. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Orc Ancestry Feat ~ Monstrous Peacemaker|TYPE:Orc Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:Your dual human and orc nature has given you a unique perspective, allowing you to bridge the gap between humans and the many intelligent creatures in the world that humans consider monsters. You gain a +1 circumstance bonus to Diplomacy checks against non-humanoid intelligent creatures and against humanoids that are marginalized in human society (at the GM's discretion, but typically at least including giants, goblins, kobolds, and orcs). You also gain this bonus on Perception checks to Sense the Motives of such creatures.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Orc Ancestry Feat ~ Orc Weapon Carnage|TYPE:Orc Ancestry Feat.Ancestry Feat.Display|DESC:You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a falchion, a greataxe, or an orc weapon, you apply the weapon's critical specialization effect.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Orc Ancestry Feat ~ Orc Weapon Familiarity|TYPE:Orc Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:In combat, you favor the brutal weapons that are traditional for your orc ancestors. You are trained with the falchion and greataxe. In addition, you gain access to all uncommon orc weapons. For you, martial orc weapons are simple weapons, and advanced orc weapons are martial weapons.
+USERPOOL:Ancestry Feats|POOLPOINTS:0.0
+ABILITY:Background Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Dex +2|TYPE:Background Ability Boost.Background Ability Boost Dex
+USERPOOL:Background Ability Boost|POOLPOINTS:0.0
+ABILITY:Background Ability Boost Strength or Wisdom|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Str +2|TYPE:Background Ability Boost.Background Ability Boost Str
+USERPOOL:Background Ability Boost Strength or Wisdom|POOLPOINTS:0.0
+ABILITY:Backgrounds|TYPE:NORMAL|CATEGORY:Background|KEY:Bounty Hunter Background|TYPE:Display.Background|DESC:Bringing in lawbreakers lined your pockets. Maybe you had an altruistic motive and sought to bring in criminals to make the streets safer, or maybe the coin was motivation enough. Your techniques for hunting down criminals transfer easily to the life of an adventurer. Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost. You're trained in the Survival skill and the Legal Lore skill. You gain the Experienced Tracker skill feat.
+USERPOOL:Backgrounds|POOLPOINTS:0.0
+ABILITY:Dexterity or Strength Class Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Class Ability Boost ~ Dex +2|TYPE:Class Ability Boost.Class Ability Boost Dex
+USERPOOL:Dexterity or Strength Class Ability Boost|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fleet|TYPE:General|DESC:You move more quickly on foot. Your Speed increases by 5 feet.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Incredible Initiative|TYPE:General|DESC:You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General|DESC:You can withstand more punishment than most before succumbing. Increase your maximum Hit Points by your level. You reduce the DC of recovery checks by 1.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Ancestry|KEY:Varisian|TYPE:Human Ethnicity.Display|DESC:Varisians historically favor a nomadic life of roving caravans, but today many settle into a less transient lifestyle in places like Ustalav and their namesake frontier nation. Their skin tones typically range from tawny beige to khaki. They have a wide variety of hair colors from platinum to red to brown, and their large, expressive eyes range into even rarer colors like violet or gold. Varisians have access to the Varisian language.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Heritage|TYPE:NORMAL|CATEGORY:Heritage|KEY:Heritage ~ Half-Orc|TYPE:Human Heritage.Display|DESC:One of your parents was an orc, or one or both were half-orcs. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait and low-light vision. In addition, you can select orc, half-orc, and human feats whenever you gain an ancestry feat.
+USERPOOL:Human Heritage|POOLPOINTS:0.0
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Con +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Con
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Dex +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Dex
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Int +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Int
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Str +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Str
+USERPOOL:Level 01 Ability Boost|POOLPOINTS:0.0
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Cha +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Cha
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Con +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Con
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Int +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Int
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Str +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Str
+USERPOOL:Level 05 Ability Boost|POOLPOINTS:0.0
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Cha +2|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Cha
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Con +2|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Con
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Int +2|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Int
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Str +2|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Str
+USERPOOL:Level 10 Ability Boost|POOLPOINTS:0.0
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Brutal Beating|TYPE:Rogue Class Feat.Class Feat.FEAT 2.ROGUE|DESC:The brutality of your critical hits shakes your foes' confidence. Whenever your Strike is a critical hit and deals damage, the target is frightened 1.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Critical Debilitation|TYPE:Rogue Class Feat.Class Feat.FEAT 12.INCAPACITATION.ROGUE|DESC:Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from. &amp;nl;Debilitation The target attempts a Fortitude save against your class DC with the following effects. &amp;nl;Critical Success The target is unaffected. &amp;nl;Success The target is slowed 1 until the end of your next turn. &amp;nl;Failure The target is slowed 2 until the end of your next turn. &amp;nl;Critical Failure The target is paralyzed until the end of your next turn.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Dread Striker|TYPE:Rogue Class Feat.Class Feat.FEAT 4.ROGUE|DESC:You capitalize on your enemies' fear to slip past their defenses. Any creature that has the frightened condition is also flat-footed against your attacks.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Nimble Dodge|TYPE:Rogue Class Feat.Class Feat.FEAT 1.ROGUE|DESC:Trigger A creature targets you with an attack and you can see the attacker. &amp;nl;Requirements You are not encumbered. &amp;nl;You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Tactical Debilitations|TYPE:Rogue Class Feat.Class Feat.FEAT 10.ROGUE|DESC:You learn new debilitations that grant you tactical advantages against your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike. &amp;nl;Debilitation The target can't use reactions. &amp;nl;Debilitation The target can't flank or contribute to allies' flanking.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Unbalancing Blow|TYPE:Rogue Class Feat.Class Feat.FEAT 2.ROGUE|DESC:Interweaving your most powerful attacks in a graceful flow, you temporarily unbalance your foes. Whenever your Strike is a critical hit and deals damage, the target is flat-footed against your attacks until the end of your next turn.
+ABILITY:Rogue Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Rogue Feat ~ Vicious Debilitations|TYPE:Rogue Class Feat.Class Feat.FEAT 10.ROGUE|DESC:The debilitations you dish out seriously impair your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike. &amp;nl;Debilitation The target gains weakness 5 to your choice of bludgeoning, piercing, or slashing damage. &amp;nl;Debilitation The target becomes clumsy 1.
+USERPOOL:Rogue Class Feat|POOLPOINTS:0.0
+ABILITY:Rogue's Racket|TYPE:NORMAL|CATEGORY:Class Feature|KEY:Rogue Class Feature ~ Ruffian|TYPE:Rogue Class Feature.Class Feature.Display.Rogue's Racket|DESC:You prefer to strong-arm or intimidate others rather than rely on finesse or fancy tricks. You might be an enforcer for organized crime, a highway bandit, or a noble who bullies others with threats of your family's power. Or, you might use your skills on the up and up, in a private security detail or as a guard in a city with the right temperament. You use whatever tools you have at hand to get the job done. You can deal sneak attack damage with any simple weapon, in addition to the weapons listed in the sneak attack class feature. When you critically succeed at an attack roll using a simple weapon and the target has the flat-footed condition (unable to focus on defending itself), you also apply the critical specialization effect for the weapon you're wielding (page 283). You don't gain these benefits if the weapon has a damage die larger than d8 (after applying any abilities that alter its damage die size). You're trained in Intimidation and medium armor. You can choose Strength as your key ability score. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.
+USERPOOL:Rogue's Racket|POOLPOINTS:0.0
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Battle Cry|TYPE:General.Skill|DESC:When you roll initiative, you can yell a mighty battle cry and Demoralize an observed foe as a free action. If you're legendary in Intimidation, you can use a reaction to Demoralize your foe when you critically succeed at an attack roll.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cat Fall|TYPE:General.Skill|DESC:Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter. If you're a master in Acrobatics, treat them as 50 feet shorter. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Experienced Smuggler|TYPE:General.Skill|DESC:You often smuggle things past the authorities. When the GM rolls your Stealth check to see if a passive observer notices a small item you have concealed, the GM uses the number rolled or 10-whichever is higher-as the result of your die roll, adding it to your Stealth modifier to determine your Stealth check result. If you're a master in Stealth, the GM uses the number rolled or 15, and if you're legendary in Stealth, you automatically succeed at hiding a small concealed item from passive observers. This provides no benefits when a creature attempts a Perception check while actively searching you for hidden items. Due to your smuggling skill, you're more likely to find more lucrative smuggling jobs when using Underworld Lore to Earn Income.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Hefty Hauler|TYPE:General.Skill|DESC:You can carry more than your frame implies. Increase your maximum and encumbered Bulk limits by 2.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Intimidating Glare|TYPE:General.Skill|DESC:You can Demoralize with a mere glare. When you do, Demoralize loses the auditory trait and gains the visual trait, and you don't take a penalty if the creature doesn't understand your language.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Intimidating Prowess|TYPE:General.Skill|DESC:In situations where you can physically menace the target when you Coerce or Demoralize, you gain a +1 circumstance bonus to your Intimidation check and you ignore the penalty for not sharing a language. If your Strength score is 20 or higher and you are a master in Intimidation, this bonus increases to +2.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Kip Up|TYPE:General.Skill|DESC:You stand up. This movement doesn't trigger reactions.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Lasting Coercion|TYPE:General.Skill|DESC:When you successfully Coerce someone, the maximum time they comply increases to a week, still determined by the GM. If you're legendary, the maximum increases to a month.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Nimble Crawl|TYPE:General.Skill|DESC:You can Crawl incredibly swiftly - up to half your Speed, rather than 5 feet. If you're a master in Acrobatics, you can Crawl at full Speed, and if you're legendary, you aren't flat-footed while prone.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Pickpocket|TYPE:General.Skill|DESC:You can Steal or Palm an Object that's closely guarded, such as in a pocket, without taking the -5 penalty. You can't steal objects that would be extremely noticeable or time consuming to remove (like worn shoes or armor or actively wielded objects). If you're a master in Thievery, you can attempt to Steal from a creature in combat or otherwise on guard. When doing so, Stealing requires 2 manipulate actions instead of 1, and you take a -5 penalty.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Powerful Leap|TYPE:General.Skill|DESC:When you Leap, you can jump 5 feet up with a vertical Leap, and you increase the distance you can jump horizontally by 5 feet.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Mantel|TYPE:General.Skill|DESC:You easily pull yourself onto ledges. When you Grab an Edge, you can pull yourself onto that surface and stand. You can use Athletics instead of a Reflex save to Grab an Edge.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Streetwise|TYPE:General.Skill|DESC:You know about life on the streets and feel the pulse of your local settlement. You can use your Society modifier instead of your Diplomacy modifier to Gather Information. In any settlement you frequent regularly, you can use the Recall Knowledge action with Society to know the same sorts of information that you could discover with Diplomacy to Gather Information. The DC is usually significantly higher, but you know the information without spending time gathering it. If you fail to recall the information, you can still subsequently attempt to Gather Information normally.
+USERPOOL:Skill Feat|POOLPOINTS:0.0
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Acrobatics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Acrobatics.Expert in Acrobatics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Athletics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Athletics.Expert in Athletics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Deception|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Deception.Expert in Deception
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Diplomacy|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Diplomacy.Expert in Diplomacy
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Intimidation|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Intimidation.Expert in Intimidation
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Society|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Society.Expert in Society
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Stealth|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Stealth.Expert in Stealth
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Survival|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Survival.Expert in Survival
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Thievery|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Thievery.Expert in Thievery
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Acrobatics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Acrobatics.Mastery in Acrobatics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Athletics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Athletics.Mastery in Athletics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Deception|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Deception.Mastery in Deception
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Intimidation|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Intimidation.Mastery in Intimidation
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Stealth|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Stealth.Mastery in Stealth
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Thievery|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Thievery.Mastery in Thievery
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Acrobatics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Acrobatics.Trained in Acrobatics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Athletics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Athletics.Trained in Athletics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Deception|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Deception.Trained in Deception
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Diplomacy|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Diplomacy.Trained in Diplomacy
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Medicine|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Medicine.Trained in Medicine
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Nature|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Nature.Trained in Nature
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Society|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Society.Trained in Society
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Thievery|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Thievery.Trained in Thievery
+USERPOOL:Trained Skills|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Clan dagger|WEAPON:Club|WEAPON:Crossbow|WEAPON:Dagger|WEAPON:Dart|WEAPON:Hand crossbow|WEAPON:Heavy crossbow|WEAPON:Javelin|WEAPON:Katar]
+WEAPONPROF:[WEAPON:Light Mace|WEAPON:Longspear|WEAPON:Mace|WEAPON:Morningstar|WEAPON:Rapier|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortsword|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Staff|WEAPON:Unarmed|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

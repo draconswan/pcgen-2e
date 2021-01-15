@@ -1,0 +1,237 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:PF2 - Core Rulebook
+VERSION:6.08.00 RC8
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Pathfinder_2
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Alchemist Testing
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:0
+STAT:DEX|SCORE:0
+STAT:CON|SCORE:0
+STAT:INT|SCORE:0
+STAT:WIS|SCORE:0
+STAT:CHA|SCORE:0
+ALIGN:None
+RACE:Goblin
+
+# Character Class(es)
+CLASS:Alchemist|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Alchemist=1|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=2|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=3|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=4|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=5|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=6|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=7|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=8|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=9|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Alchemist=10|HITPOINTS:0|SKILLSGAINED:0|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:9000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Bonus Languages ~ Goblin]
+TEMPLATESAPPLIED:[NAME:Automatic Languages ~ Goblin]
+TEMPLATESAPPLIED:[NAME:Alchemy]
+TEMPLATESAPPLIED:[NAME:Size ~ S]
+TEMPLATESAPPLIED:[NAME:1st Level Intelligence Score|APPLIEDTO:INT 18]
+TEMPLATESAPPLIED:[NAME:INT 18|CHOSENTEMPLATE:[NAME:Language +3]]
+TEMPLATESAPPLIED:[NAME:Language +3]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Arcana|OUTPUTORDER:2|
+SKILL:Athletics|OUTPUTORDER:3|
+SKILL:Crafting|OUTPUTORDER:4|
+SKILL:Deception|OUTPUTORDER:5|
+SKILL:Diplomacy|OUTPUTORDER:6|
+SKILL:Intimidation|OUTPUTORDER:7|
+SKILL:Lore|OUTPUTORDER:8|
+SKILL:Lore - Goblin Lore|OUTPUTORDER:9|
+SKILL:Lore - Underworld Lore|OUTPUTORDER:10|
+SKILL:Medicine|OUTPUTORDER:11|
+SKILL:Nature|OUTPUTORDER:12|
+SKILL:Occultism|OUTPUTORDER:13|
+SKILL:Performance|OUTPUTORDER:14|
+SKILL:Religion|OUTPUTORDER:15|
+SKILL:Society|OUTPUTORDER:16|
+SKILL:Stealth|OUTPUTORDER:17|
+SKILL:Survival|OUTPUTORDER:18|
+SKILL:Thievery|OUTPUTORDER:19|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Gnomish|LANGUAGE:Goblin|LANGUAGE:Halfling
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Alchemist Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Alchemist Feat ~ Calculated Splash|TYPE:Alchemist Class Feat.Class Feat.FEAT 04|DESC:You have calculated all the angles to maximize a bomb's splash. When you throw an alchemical bomb with the splash trait, you can cause the bomb to deal splash damage equal to your Intelligence modifier (minimum 0) instead of the normal amount.
+ABILITY:Alchemist Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Alchemist Feat ~ Directional Bombs|TYPE:Alchemist Class Feat.Class Feat.FEAT 06|DESC:You can lob bombs with great force and a precise trajectory to angle the splash in a cone spraying in a single direction. When throwing an alchemical bomb with the splash trait, instead of splashing all squares adjacent to the target, you can treat the target's space as the first affected square of a 15-foot cone directed away from you, potentially allowing you to avoid allies and splash deeper into enemy lines. If the target takes up more than a single square, the target's square closest to you is the first affected square of the cone.
+ABILITY:Alchemist Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Alchemist Feat ~ Expanded Splash|TYPE:Alchemist Class Feat.Class Feat.FEAT 10|DESC:The particularly volatile compounds that you brew into your bombs result in them creating especially large and powerful explosions. When you throw an alchemical bomb you created and that bomb has the splash trait, you can add your Intelligence modifier to the bomb's usual splash damage, and it deals splash damage to every creature within 10 feet of the target.
+ABILITY:Alchemist Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Alchemist Feat ~ Far Lobber|TYPE:Alchemist Class Feat.Class Feat.FEAT 01|DESC:You've learned how to throw a longer distance. When you throw an alchemical bomb, it has a range increment of 30 feet instead of the usual 20 feet.
+ABILITY:Alchemist Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Alchemist Feat ~ Quick Bomber|TYPE:Alchemist Class Feat.Class Feat.FEAT 01.Free-Action|DESC:You keep your bombs in easy-to-reach pouches from which you draw without thinking. You Interact to draw a bomb, then Strike with it.
+ABILITY:Alchemist Class Feat|TYPE:NORMAL|CATEGORY:Class Feat|KEY:Alchemist Feat ~ Sticky Bomb|TYPE:Alchemist Class Feat.Class Feat.FEAT 08.Free-Action.Additive 2|DESC:FREQUENCY - once per round|DESC:TRIGGER - You use Quick Alchemy to craft an alchemical bomb, and that bomb's level is at least 2 levels lower than your advanced alchemy level.|DESC:You mix in an additive to make your bomb's contents adhere to the target and continue to deal damage. A creature that takes a direct hit from one of your sticky bombs also takes persistent damage equal to and of the same type as the bomb's splash damage. If the bomb already deals persistent damage, combine the two amounts.
+USERPOOL:Alchemist Class Feat|POOLPOINTS:0.0
+ABILITY:Alchemist Research Field|TYPE:NORMAL|CATEGORY:Class Feature|KEY:Alchemist Class Feature ~ Research Field ~ Bomber|APPLIEDTO:CATEGORY=Power List&pipe;Level 1 Alchemist's fire - lesser Bomb,CATEGORY=Power List&pipe;Level 1 Frost vial - lesser Bomb|TYPE:Alchemist Class Feature.Class Feature.Display.Alchemist Research Field|DESC:You specialize in explosions and other violent alchemical reactions. You start with the formulas for two 1st-level alchemical bombs in your formula book, in addition to your other formulas. When throwing an alchemical bomb with the splash trait, you can deal splash damage to only your primary target instead of the usual splash area.
+USERPOOL:Alchemist Research Field|POOLPOINTS:0.0
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Acid flask - lesser Bomb|TYPE:Alchemy.Alchemy 1.Alchemy Bomb
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Antidote - lesser Elixir|TYPE:Alchemy.Alchemy 1.Alchemy Elixir
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Antiplague - lesser Elixir|TYPE:Alchemy.Alchemy 1.Alchemy Elixir
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Bottled lightning - lesser Bomb|TYPE:Alchemy.Alchemy 1.Alchemy Bomb
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Elixir of life - minor Elixir|TYPE:Alchemy.Alchemy 1.Alchemy Elixir
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 1 Tindertwig Tool|TYPE:Alchemy.Alchemy 1.Alchemy Tool
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 2 Cat's eye elixir Elixir|TYPE:Alchemy.Alchemy 2.Alchemy Elixir
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 2 Darkvision elixir - lesser Elixir|TYPE:Alchemy.Alchemy 2.Alchemy Elixir
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 3 Acid flask - moderate Bomb|TYPE:Alchemy.Alchemy 3.Alchemy Bomb
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 3 Alchemist's fire - moderate Bomb|TYPE:Alchemy.Alchemy 3.Alchemy Bomb
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 3 Bottled lightning - moderate Bomb|TYPE:Alchemy.Alchemy 3.Alchemy Bomb
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 3 Frost vial - moderate Bomb|TYPE:Alchemy.Alchemy 3.Alchemy Bomb
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 4 Bomber's eye elixir - lesser Elixir|TYPE:Alchemy.Alchemy 4.Alchemy Elixir
+ABILITY:Alchemy|TYPE:NORMAL|CATEGORY:Power List|KEY:Level 5 Elixir of life - lesser Elixir|TYPE:Alchemy.Alchemy 5.Alchemy Elixir
+USERPOOL:Alchemy|POOLPOINTS:0.0
+ABILITY:Ancestry Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Ancestry Ability Boost ~ Int +2|TYPE:Ancestry Ability Boost.Ancestry Ability Boost Int
+USERPOOL:Ancestry Ability Boost|POOLPOINTS:0.0
+ABILITY:Ancestry Bonus Language|TYPE:NORMAL|CATEGORY:Language|KEY:Ancestry Language Support ~ Draconic|TYPE:Ancestry Bonus Language.Spoken.Common|DESC:Dragons, reptilian humanoids
+ABILITY:Ancestry Bonus Language|TYPE:NORMAL|CATEGORY:Language|KEY:Ancestry Language Support ~ Gnomish|TYPE:Ancestry Bonus Language.Spoken.Common|DESC:Gnomes
+ABILITY:Ancestry Bonus Language|TYPE:NORMAL|CATEGORY:Language|KEY:Ancestry Language Support ~ Halfling|TYPE:Ancestry Bonus Language.Spoken.Common|DESC:Halflings
+USERPOOL:Ancestry Bonus Language|POOLPOINTS:0.0
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Goblin Ancestry Feat ~ Burn It!|TYPE:Goblin Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:Fire fascinates you. Your spells and alchemical items that deal fire damage gain a status bonus to damage equal to half the spell's level or one-quarter the item's level (minimum 1). You also gain a +1 status bonus to any persistent fire damage you deal.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Goblin Ancestry Feat ~ Goblin Lore|TYPE:Goblin Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:You've picked up skills and tales from your goblin community. You gain the trained proficiency rank in Nature and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Goblin Lore.
+ABILITY:Ancestry Feats|TYPE:NORMAL|CATEGORY:Ancestry Feat|KEY:Goblin Ancestry Feat ~ Very Sneaky|TYPE:Goblin Ancestry Feat.Ancestry Feat.Display.Ancestry Feat LVL 01|DESC:Taller folk rarely pay attention to the shadows at their feet, and you take full advantage of this. You can move 5 feet farther when you take the Sneak action, up to your Speed. In addition, as long as you continue to use Sneak actions and succeed at your Stealth check, you don't become observed if you don't have cover or greater cover and aren't concealed at the end of the Sneak action, as long as you have cover or greater cover or are concealed at the end of your turn.
+USERPOOL:Ancestry Feats|POOLPOINTS:0.0
+ABILITY:Background Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Dex +2|TYPE:Background Ability Boost.Background Ability Boost Dex
+USERPOOL:Background Ability Boost|POOLPOINTS:0.0
+ABILITY:Background Ability Boost Dexterity or Intelligence|TYPE:NORMAL|CATEGORY:Ability|KEY:Background Ability Boost ~ Int +2|TYPE:Background Ability Boost.Background Ability Boost Int
+USERPOOL:Background Ability Boost Dexterity or Intelligence|POOLPOINTS:0.0
+ABILITY:Backgrounds|TYPE:NORMAL|CATEGORY:Background|KEY:Criminal Background|TYPE:Display.Background|DESC:As an unscrupulous independent or as a member of an underworld organization, you lived a life of crime. You might have become an adventurer to seek redemption, to escape the law, or simply to get access to bigger and better loot. Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost. You're trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat.
+USERPOOL:Backgrounds|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Incredible Initiative|TYPE:General|DESC:You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Magical Crafting|TYPE:General.Skill|DESC:You can Craft magic items, though some have other requirements, as listed in Chapter 11. When you select this feat, you gain formulas for four common magic items of 2nd level or lower.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Goblin Heritage|TYPE:NORMAL|CATEGORY:Heritage|KEY:Heritage ~ Charhide Goblin|TYPE:Goblin Heritage.Display|DESC:Your ancestors have always had a connection to fire and a thicker skin, which allows you to resist burning. You gain fire resistance equal to half your level (minimum 1). You can also recover from being on fire more easily. Your flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 if another creature uses a particularly appropriate action to help.
+USERPOOL:Goblin Heritage|POOLPOINTS:0.0
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Cha +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Cha
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Con +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Con
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Dex +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Dex
+ABILITY:Level 01 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 01 Ability Boost ~ Int +2|TYPE:Level 01 Ability Boost.Level 1 Ability Boost Int
+USERPOOL:Level 01 Ability Boost|POOLPOINTS:0.0
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Cha +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Cha
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Con +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Con
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Dex +2|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Dex
+ABILITY:Level 05 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 05 Ability Boost ~ Int +1|TYPE:Level 05 Ability Boost.Level 5 Ability Boost Int
+USERPOOL:Level 05 Ability Boost|POOLPOINTS:0.0
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Con +2|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Con
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Dex +1|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Dex
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Int +1|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Int
+ABILITY:Level 10 Ability Boost|TYPE:NORMAL|CATEGORY:Ability|KEY:Level 10 Ability Boost ~ Wis +2|TYPE:Level 10 Ability Boost.Level 10 Ability Boost Wis
+USERPOOL:Level 10 Ability Boost|POOLPOINTS:0.0
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Forager|TYPE:General.Skill|DESC:While using Survival to Subsist, if you roll any result worse than a success, you get a success. On a success, you can provide subsistence living for yourself and four additional creatures, and on a critical success, you can take care of twice as many creatures as on a success.&amp;nl;Each time your proficiency rank in Survival increases, double the number of additional creatures you can take care of on a success (to eight if you're an expert, 16 if you're a master, or 32 if you're legendary). You can choose to care for half the number of additional creatures and provide a comfortable living instead of subsistence living.&amp;nl;Multiple smaller creatures or creatures with significantly smaller appetites than a human are counted as a single creature for this feat, and larger creatures or those with significantly greater appetites each count as multiple creatures. The GM determines how much a non-human creature needs to eat.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Natural Medicine|TYPE:General.Skill|DESC:You can apply natural cures to heal your allies. You can use Nature instead of Medicine to Treat Wounds. If you're in the wilderness, you might have easier access to fresh ingredients, allowing you to gain a +2 circumstance bonus to your check to Treat Wounds using Nature, subject to the GM's determination.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Repair|TYPE:General.Skill|DESC:You take 1 minute to Repair an item. If you're a master in Crafting, it takes 3 actions. If you're legendary, it takes 1 action.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snare Crafting|TYPE:General.Skill|DESC:You can use the Craft activity to create snares, using the rules from page 244. When you select this feat, you add the formulas for four common snares to your formula book.
+ABILITY:Skill Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Survey Wildlife|TYPE:General.Skill|DESC:You can study details in the wilderness to determine the presence of nearby creatures. You can spend 10 minutes assessing the area around you to find out what creatures are nearby, based on nests, scat, and marks on vegetation. Attempt a Survival check against a DC determined by the GM based on how obvious the signs are. On a success, you can attempt a Recall Knowledge check with a -2 penalty to learn more about the creatures just from these signs. If you're a master in Survival, you don't take the penalty.
+USERPOOL:Skill Feat|POOLPOINTS:0.0
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Crafting|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Crafting.Expert in Crafting
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Stealth|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Stealth.Expert in Stealth
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Expert in Survival|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Survival.Expert in Survival
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Crafting|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Crafting.Mastery in Crafting
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Mastery in Survival|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Survival.Mastery in Survival
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Acrobatics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Acrobatics.Trained in Acrobatics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Arcana|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Arcana.Trained in Arcana
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Athletics|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Athletics.Trained in Athletics
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Diplomacy|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Diplomacy.Trained in Diplomacy
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Medicine|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Medicine.Trained in Medicine
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Occultism|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Occultism.Trained in Occultism
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Society|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Society.Trained in Society
+ABILITY:Trained Skills|TYPE:NORMAL|CATEGORY:Proficiency|KEY:Trained in Survival|APPLIEDTO:|TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Survival.Trained in Survival
+USERPOOL:Trained Skills|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Clan dagger|WEAPON:Club|WEAPON:Crossbow|WEAPON:Dagger|WEAPON:Dart|WEAPON:Hand crossbow|WEAPON:Heavy crossbow|WEAPON:Javelin|WEAPON:Katar]
+WEAPONPROF:[WEAPON:Light Mace|WEAPON:Longspear|WEAPON:Mace|WEAPON:Morningstar|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Staff|WEAPON:Unarmed|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

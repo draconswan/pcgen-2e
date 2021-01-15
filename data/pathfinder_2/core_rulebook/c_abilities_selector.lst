@@ -149,21 +149,21 @@ Martial Disciple Background Athletics	CATEGORY:Selection	TYPE:Martial Disciple B
 
 ###Block
 # Ability Name		Category of Ability	Type									Required Non-Monster Lvl	Required Var. value		Ability						Modify VAR
-Trained in Fortitude	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Trained							PREVAREQ:Modifier_Fortitude,0	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|1|TYPE=Base
-Trained in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Trained							PREVAREQ:Modifier_Reflex,0	ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|1|TYPE=Base
-Trained in Will		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Trained							PREVAREQ:Modifier_Will,0	ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|1|TYPE=Base
+Trained in Fortitude	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Trained								PREVAREQ:Modifier_Fortitude,0	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|1|TYPE=Base
+Trained in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Trained								PREVAREQ:Modifier_Reflex,0		ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|1|TYPE=Base
+Trained in Will			CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Trained								PREVAREQ:Modifier_Will,0		ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|1|TYPE=Base
 #
-Expert in Fortitude	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Expert							PREVAREQ:Modifier_Fortitude,1	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|2|TYPE=Base
-Expert in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Expert							PREVAREQ:Modifier_Reflex,1	ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|2|TYPE=Base
-Expert in Will		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Expert							PREVAREQ:Modifier_Will,1	ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|2|TYPE=Base
+Expert in Fortitude		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Expert								PREVAREQ:Modifier_Fortitude,1	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|2|TYPE=Base
+Expert in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Expert								PREVAREQ:Modifier_Reflex,1		ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|2|TYPE=Base
+Expert in Will			CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Expert								PREVAREQ:Modifier_Will,1		ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|2|TYPE=Base
 #
-Master in Fortitude	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Master		PREPCLEVEL:MIN=7			PREVAREQ:Modifier_Fortitude,2	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|3|TYPE=Base
-Master in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Master		PREPCLEVEL:MIN=7			PREVAREQ:Modifier_Reflex,2	ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|3|TYPE=Base
-Master in Will		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Master		PREPCLEVEL:MIN=7			PREVAREQ:Modifier_Will,2	ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|3|TYPE=Base
+Mastery in Fortitude		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Master		PREPCLEVEL:MIN=7		PREVAREQ:Modifier_Fortitude,2	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|3|TYPE=Base
+Mastery in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Master		PREPCLEVEL:MIN=7		PREVAREQ:Modifier_Reflex,2		ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|3|TYPE=Base
+Mastery in Will			CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Master		PREPCLEVEL:MIN=7		PREVAREQ:Modifier_Will,2		ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|3|TYPE=Base
 #
-Legendary in Fortitude	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Legendary	PREPCLEVEL:MIN=15			PREVAREQ:Modifier_Fortitude,3	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|4|TYPE=Base
-Legendary in Reflex	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Legendary	PREPCLEVEL:MIN=15			PREVAREQ:Modifier_Reflex,3	ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|4|TYPE=Base
-Legendary in Will		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Legendary	PREPCLEVEL:MIN=15			PREVAREQ:Modifier_Will,3	ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|4|TYPE=Base
+Legendary in Fortitude	CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Legendary	PREPCLEVEL:MIN=15		PREVAREQ:Modifier_Fortitude,3	ABILITY:Proficiency|AUTOMATIC|Fortitude	BONUS:VAR|Modifier_Fortitude|4|TYPE=Base
+Legendary in Reflex		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Legendary	PREPCLEVEL:MIN=15		PREVAREQ:Modifier_Reflex,3		ABILITY:Proficiency|AUTOMATIC|Reflex	BONUS:VAR|Modifier_Reflex|4|TYPE=Base
+Legendary in Will		CATEGORY:Proficiency	TYPE:Save Proficiency.Save Proficiency Legendary	PREPCLEVEL:MIN=15		PREVAREQ:Modifier_Will,3		ABILITY:Proficiency|AUTOMATIC|Will		BONUS:VAR|Modifier_Will|4|TYPE=Base
 
 
 
@@ -245,6 +245,7 @@ Legendary in Thievery				SORTKEY:Thi 04	CATEGORY:Proficiency	TYPE:Trained Skill 
 # The Lore Nightmare - Thanks Paizo, really appreciate the endless skill lists...
 Trained in Academia Lore							SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_AcademiaLore,0					DEFINE:Modifier_AcademiaLore|0					ABILITY:Proficiency|AUTOMATIC|Academia Lore									BONUS:VAR|Modifier_AcademiaLore|1|TYPE=Base						MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Trained in Accounting Lore						SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_AccountingLore,0				DEFINE:Modifier_AccountingLore|0				ABILITY:Proficiency|AUTOMATIC|Accounting Lore								BONUS:VAR|Modifier_AccountingLore|1|TYPE=Base					MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Trained in Animal Lore				SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore				PREVAREQ:Modifier_AnimalLore,0			DEFINE:Modifier_AnimalLore|0			ABILITY:Proficiency|AUTOMATIC|Animal Lore							BONUS:VAR|Modifier_AnimalLore|1|TYPE=Base				MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Trained in Architecture Lore					SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_ArchitectureLore,0			DEFINE:Modifier_ArchitectureLore|0			ABILITY:Proficiency|AUTOMATIC|Architecture Lore							BONUS:VAR|Modifier_ArchitectureLore|1|TYPE=Base				MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Trained in Art Lore										SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_ArtLore,0								DEFINE:Modifier_ArtLore|0								ABILITY:Proficiency|AUTOMATIC|Art Lore											BONUS:VAR|Modifier_ArtLore|1|TYPE=Base								MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Trained in Circus Lore								SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_CircusLore,0						DEFINE:Modifier_CircusLore|0						ABILITY:Proficiency|AUTOMATIC|Circus Lore										BONUS:VAR|Modifier_CircusLore|1|TYPE=Base							MULT:YES	STACK:YES		CHOOSE:NOCHOICE
@@ -348,8 +349,9 @@ Trained in Halfling Lore							SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained 
 # Expert
 Expert in Academia Lore				SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_AcademiaLore,1		DEFINE:Modifier_AcademiaLore|0		ABILITY:Proficiency|AUTOMATIC|Academia Lore																	BONUS:VAR|Modifier_AcademiaLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Expert in Accounting Lore			SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_AccountingLore,1		DEFINE:Modifier_AccountingLore|0		ABILITY:Proficiency|AUTOMATIC|Accounting Lore																	BONUS:VAR|Modifier_AccountingLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Animal Lore				SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore				PREVAREQ:Modifier_AnimalLore,1			DEFINE:Modifier_AnimalLore|0			ABILITY:Proficiency|AUTOMATIC|Animal Lore							BONUS:VAR|Modifier_AnimalLore|2|TYPE=Base				MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Expert in Architecture Lore			SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_ArchitectureLore,1	DEFINE:Modifier_ArchitectureLore|0		ABILITY:Proficiency|AUTOMATIC|Architecture Lore																	BONUS:VAR|Modifier_ArchitectureLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Expert in Art Lore				SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_ArtLore,1			DEFINE:Modifier_ArtLore|0			ABILITY:Proficiency|AUTOMATIC|Art Lore																		BONUS:VAR|Modifier_ArtLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Art Lore					SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_ArtLore,1			DEFINE:Modifier_ArtLore|0			ABILITY:Proficiency|AUTOMATIC|Art Lore																		BONUS:VAR|Modifier_ArtLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Expert in Circus Lore				SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_CircusLore,1		DEFINE:Modifier_CircusLore|0			ABILITY:Proficiency|AUTOMATIC|Circus Lore																		BONUS:VAR|Modifier_CircusLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Expert in Engineering Lore			SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_EngineeringLore,1		DEFINE:Modifier_EngineeringLore|0		ABILITY:Proficiency|AUTOMATIC|Engineering Lore																	BONUS:VAR|Modifier_EngineeringLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Expert in Farming Lore				SORTKEY:Lor 02	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore												PREVAREQ:Modifier_FarmingLore,1		DEFINE:Modifier_FarmingLore|0			ABILITY:Proficiency|AUTOMATIC|Farming Lore																	BONUS:VAR|Modifier_FarmingLore|2|TYPE=BASE		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
@@ -450,6 +452,7 @@ Expert in Halfling Lore				SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skil
 # Mastery
 Mastery in Academia Lore			SORTKEY:Lor 03	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=7			PREVAREQ:Modifier_AcademiaLore,2		DEFINE:Modifier_AcademiaLore|0		ABILITY:Proficiency|AUTOMATIC|Academia Lore																	BONUS:VAR|Modifier_AcademiaLore|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Mastery in Accounting Lore			SORTKEY:Lor 03	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=7			PREVAREQ:Modifier_AccountingLore,2		DEFINE:Modifier_AccountingLore|0		ABILITY:Proficiency|AUTOMATIC|Accounting Lore																	BONUS:VAR|Modifier_AccountingLore|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Animal Lore				SORTKEY:Lor 03	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore				PREPCLEVEL:MIN=7	PREVAREQ:Modifier_AnimalLore,2			DEFINE:Modifier_AnimalLore|0			ABILITY:Proficiency|AUTOMATIC|Animal Lore							BONUS:VAR|Modifier_AnimalLore|3|TYPE=Base				MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Mastery in Architecture Lore			SORTKEY:Lor 03	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=7			PREVAREQ:Modifier_ArchitectureLore,2	DEFINE:Modifier_ArchitectureLore|0		ABILITY:Proficiency|AUTOMATIC|Architecture Lore																	BONUS:VAR|Modifier_ArchitectureLore|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Mastery in Art Lore				SORTKEY:Lor 03	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=7			PREVAREQ:Modifier_ArtLore,2			DEFINE:Modifier_ArtLore|0			ABILITY:Proficiency|AUTOMATIC|Art Lore																		BONUS:VAR|Modifier_ArtLore|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Mastery in Circus Lore				SORTKEY:Lor 03	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=7			PREVAREQ:Modifier_CircusLore,2		DEFINE:Modifier_CircusLore|0			ABILITY:Proficiency|AUTOMATIC|Circus Lore																		BONUS:VAR|Modifier_CircusLore|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
@@ -552,6 +555,7 @@ Mastery in Halfling Lore				SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Ski
 # Legendary
 Legendary in Academia Lore			SORTKEY:Lor 04	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=15			PREVAREQ:Modifier_AcademiaLore,3		DEFINE:Modifier_AcademiaLore|0		ABILITY:Proficiency|AUTOMATIC|Academia Lore																	BONUS:VAR|Modifier_AcademiaLore|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Legendary in Accounting Lore			SORTKEY:Lor 04	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=15			PREVAREQ:Modifier_AccountingLore,3		DEFINE:Modifier_AccountingLore|0		ABILITY:Proficiency|AUTOMATIC|Accounting Lore																	BONUS:VAR|Modifier_AccountingLore|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Animal Lore			SORTKEY:Lor 04	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore				PREPCLEVEL:MIN=15	PREVAREQ:Modifier_AnimalLore,3			DEFINE:Modifier_AnimalLore|0			ABILITY:Proficiency|AUTOMATIC|Animal Lore							BONUS:VAR|Modifier_AnimalLore|4|TYPE=Base				MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Legendary in Architecture Lore		SORTKEY:Lor 04	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=15			PREVAREQ:Modifier_ArchitectureLore,3	DEFINE:Modifier_ArchitectureLore|0		ABILITY:Proficiency|AUTOMATIC|Architecture Lore																	BONUS:VAR|Modifier_ArchitectureLore|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Legendary in Art Lore				SORTKEY:Lor 04	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=15			PREVAREQ:Modifier_ArtLore,3			DEFINE:Modifier_ArtLore|0			ABILITY:Proficiency|AUTOMATIC|Art Lore																		BONUS:VAR|Modifier_ArtLore|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Legendary in Circus Lore			SORTKEY:Lor 04	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=15			PREVAREQ:Modifier_CircusLore,3		DEFINE:Modifier_CircusLore|0			ABILITY:Proficiency|AUTOMATIC|Circus Lore																		BONUS:VAR|Modifier_CircusLore|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
@@ -652,14 +656,12 @@ Legendary in Goblin Lore					SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Sk
 Legendary in Halfling Lore				SORTKEY:Lor 01	CATEGORY:Proficiency	TYPE:Trained Skill Proficiency.Skill Proficiency.Skill Proficiency Lore							PREPCLEVEL:MIN=15			PREVAREQ:Modifier_HalflingLore,3	DEFINE:Modifier_HalflingLore|0	ABILITY:Proficiency|AUTOMATIC|Halfling Lore																	BONUS:VAR|Modifier_HalflingLore|4|TYPE=Base				MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
 
-
 #Trained in Shields				CATEGORY:Proficiency	ABILITY:Proficiency|AUTOMATIC|Shields
 
-
-Trained in Perception							CATEGORY:Proficiency	TYPE:Perception																					PREVAREQ:Modifier_Perception,0									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Expert in Perception							CATEGORY:Proficiency	TYPE:Perception																					PREVAREQ:Modifier_Perception,1									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Mastery in Perception							CATEGORY:Proficiency	TYPE:Perception																PREPCLEVEL:MIN=7			PREVAREQ:Modifier_Perception,2									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Legendary in Perception							CATEGORY:Proficiency	TYPE:Perception																PREPCLEVEL:MIN=15			PREVAREQ:Modifier_Perception,3									ABILITY:Proficiency|AUTOMATIC|Perception																		BONUS:VAR|Modifier_Perception|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Trained in Perception							CATEGORY:Proficiency	TYPE:Perception							PREVAREQ:Modifier_Perception,0		ABILITY:Proficiency|AUTOMATIC|Perception		BONUS:VAR|Modifier_Perception|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Perception							CATEGORY:Proficiency	TYPE:Perception							PREVAREQ:Modifier_Perception,1		ABILITY:Proficiency|AUTOMATIC|Perception		BONUS:VAR|Modifier_Perception|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Perception							CATEGORY:Proficiency	TYPE:Perception		PREPCLEVEL:MIN=7	PREVAREQ:Modifier_Perception,2		ABILITY:Proficiency|AUTOMATIC|Perception		BONUS:VAR|Modifier_Perception|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Perception							CATEGORY:Proficiency	TYPE:Perception		PREPCLEVEL:MIN=15	PREVAREQ:Modifier_Perception,3		ABILITY:Proficiency|AUTOMATIC|Perception		BONUS:VAR|Modifier_Perception|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
 # Weapons
 
@@ -680,7 +682,7 @@ Legendary in Heavy Armor						CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:
 
 Trained in Unarmored Defense					CATEGORY:Proficiency		PREVAREQ:Prof_Rank_UnarmoredDefense,0							ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|1|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Expert in Unarmored Defense						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_UnarmoredDefense,1							ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|2|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Mastery in Unarmored Defense						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_UnarmoredDefense,2	ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|3|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Mastery in Unarmored Defense					CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_UnarmoredDefense,2	ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|3|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Legendary in Unarmored Defense					CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_UnarmoredDefense,3	ABILITY:Proficiency|AUTOMATIC|Unarmored Defense		BONUS:VAR|Prof_Rank_UnarmoredDefense|4|TYPE=Base	MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
 Trained in Simple Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_SimpleWeapons,0								ABILITY:Proficiency|AUTOMATIC|Simple Weapons		BONUS:VAR|Prof_Rank_SimpleWeapons|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
@@ -689,11 +691,16 @@ Mastery in Simple Weapons						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:
 Legendary in Simple Weapons						CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_SimpleWeapons,3		ABILITY:Proficiency|AUTOMATIC|Simple Weapons		BONUS:VAR|Prof_Rank_SimpleWeapons|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
 Trained in Martial Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MartialWeapons,0								ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|1|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Expert in Martial Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MartialWeapons,0								ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Expert in Martial Weapons						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_MartialWeapons,1								ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|2|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 Mastery in Martial Weapons						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_MartialWeapons,2		ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|3|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
-Legendary in Martial Weapons					CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_MartialWeapons,2		ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
+Legendary in Martial Weapons					CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_MartialWeapons,3		ABILITY:Proficiency|AUTOMATIC|Martial Weapons		BONUS:VAR|Prof_Rank_MartialWeapons|4|TYPE=Base		MULT:YES	STACK:YES		CHOOSE:NOCHOICE
 
-Trained in Alchemical Bombs						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Alchemical Bombs																	BONUS:VAR|Prof_Rank_AlchemicalBombs|1|TYPE=Base
+Trained in Alchemical Bombs						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_AlchemicalBombs,0							ABILITY:Proficiency|AUTOMATIC|Alchemical Bombs		BONUS:VAR|Prof_Rank_AlchemicalBombs|1|TYPE=Base
+Expert in Alchemical Bombs						CATEGORY:Proficiency		PREVAREQ:Prof_Rank_AlchemicalBombs,1							ABILITY:Proficiency|AUTOMATIC|Alchemical Bombs		BONUS:VAR|Prof_Rank_AlchemicalBombs|1|TYPE=Base
+Mastery in Alchemical Bombs						CATEGORY:Proficiency		PREPCLEVEL:MIN=7		PREVAREQ:Prof_Rank_AlchemicalBombs,2	ABILITY:Proficiency|AUTOMATIC|Alchemical Bombs		BONUS:VAR|Prof_Rank_AlchemicalBombs|1|TYPE=Base
+Legendary in Alchemical Bombs					CATEGORY:Proficiency		PREPCLEVEL:MIN=15		PREVAREQ:Prof_Rank_AlchemicalBombs,3	ABILITY:Proficiency|AUTOMATIC|Alchemical Bombs		BONUS:VAR|Prof_Rank_AlchemicalBombs|1|TYPE=Base
+
+
 Trained in Arcane Spell Attack					CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Arcane Spell Attack																BONUS:VAR|Prof_Rank_ArcaneSpellAttacks|1|TYPE=Base
 Trained in Arcane Spell DC						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Arcane Spell DC																	BONUS:VAR|Prof_Rank_ArcaneSpellDC|1|TYPE=Base
 Trained in Barbarian Class DC						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Barbarian Class DC																BONUS:VAR|Prof_Rank_BarbarianClassDC|1|TYPE=Base
@@ -711,18 +718,24 @@ Trained in Sap								CATEGORY:Proficiency																																						
 Trained in Shortbow							CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Shortbow																		BONUS:VAR|Prof_Rank_Shortbow|1|TYPE=Base
 Trained in Shortsword							CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Shortsword																		BONUS:VAR|Prof_Rank_Shortsword|1|TYPE=Base
 Trained in Staff								CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Staff																			BONUS:VAR|Prof_Rank_Staff|1|TYPE=Base
-Trained in Unarmed Attacks						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks																	BONUS:VAR|Prof_Rank_UnarmedAttacks|1|TYPE=Base
 
+Trained in Unarmed Attacks						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks		BONUS:VAR|Prof_Rank_UnarmedAttacks|1|TYPE=Base
+Expert in Unarmed Attacks						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks		BONUS:VAR|Prof_Rank_UnarmedAttacks|2|TYPE=Base
+Mastery in Unarmed Attacks						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks		BONUS:VAR|Prof_Rank_UnarmedAttacks|3|TYPE=Base
+Legendary in Unarmed Attacks					CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks		BONUS:VAR|Prof_Rank_UnarmedAttacks|4|TYPE=Base
 
-Expert in Unarmed Attacks						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Unarmed Attacks																	BONUS:VAR|Prof_Rank_UnarmedAttacks|2|TYPE=Base
-Expert in Advanced weapons						CATEGORY:Proficiency																															DEFINE:Prof_Rank_AdvancedWeapons|0		ABILITY:Proficiency|AUTOMATIC|Advanced weapons																	BONUS:VAR|Prof_Rank_AdvancedWeapons|2|TYPE=Base
+Trained in Advanced Weapons						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Advanced Weapons		BONUS:VAR|Prof_Rank_AdvancedWeapons|1|TYPE=Base
+Expert in Advanced weapons						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Advanced Weapons		BONUS:VAR|Prof_Rank_AdvancedWeapons|2|TYPE=Base
+Mastery in Advanced weapons						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Advanced Weapons		BONUS:VAR|Prof_Rank_AdvancedWeapons|3|TYPE=Base
+Legendary in Advanced weapons					CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Advanced Weapons		BONUS:VAR|Prof_Rank_AdvancedWeapons|4|TYPE=Base
 
-Trained in Advanced Weapons						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Advanced Weapons
-Trained in Fighter Class DC						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Fighter Class DC
-Trained in Monk Class DC						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Monk Class DC
-Trained in Ranger Class DC						CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Ranger Class DC
-Expert in Perception							CATEGORY:Proficiency																																						ABILITY:Proficiency|AUTOMATIC|Perception
+#Trained in Fighter Class DC						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Fighter Class DC		BONUS:VAR|Prof_Rank_FighterClassDC|1|TYPE=Base
+#Expert in Fighter Class DC						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Fighter Class DC		BONUS:VAR|Prof_Rank_FighterClassDC|2|TYPE=Base
+#Mastery in Fighter Class DC						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Fighter Class DC		BONUS:VAR|Prof_Rank_FighterClassDC|3|TYPE=Base
+#Legendary in Fighter Class DC					CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Fighter Class DC		BONUS:VAR|Prof_Rank_FighterClassDC|4|TYPE=Base
 
+Trained in Monk Class DC						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Monk Class DC
+Trained in Ranger Class DC						CATEGORY:Proficiency		ABILITY:Proficiency|AUTOMATIC|Ranger Class DC
 
 
 Expert Weapon Group Selection ~ Axe					CATEGORY:Proficiency	TYPE:Expert Weapon Group Selection																																																								BONUS:VAR|WeaponGroupRank_Axe|2|TYPE=Base
